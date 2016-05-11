@@ -15,17 +15,19 @@ a:hover {
   .tftextinput{
     margin: 0;
     padding: 5px 15px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
     font-size:14px;
     border:2px solid gray; 
     border-right:0px;
     border-top-left-radius: 5px 5px;
     border-bottom-left-radius: 5px 5px;
+    /*font-family: "Courier New", Courier, monospace;  original font*/
+    
   }
   .tfbutton {
     margin: 0;
     padding: 5px 15px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
     font-size:14px;
     outline: none;
     cursor: pointer;
@@ -63,7 +65,7 @@ html,
 body {
   height: 100%;
   background-color: #5793A9;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 }
 body {
   color: #fff;
