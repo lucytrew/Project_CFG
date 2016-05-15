@@ -14,38 +14,45 @@ a:hover {
   }
   .tftextinput{
     margin: 0;
+    color: #fff;
+    background-color: #5793A9;
     padding: 5px 15px;
     font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
-    font-size:14px;
-    /*border:2px solid gray;*/
-    border-right:0px;
+    font-size: 14px;
+    border-right: 0px;
     border-top-left-radius: 5px 5px;
     border-bottom-left-radius: 5px 5px;
-    /*font-family: "Courier New", Courier, monospace;  original font*/
     
   }
   .tfbutton {
     margin: 0;
-    padding: 5px 15px;
+    padding: 4.5px 14px;
     font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
-    font-size:14px;
+    font-size: 14px;
     outline: none;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     color: white;
     border: solid 2px #fff; 
-    border-right:0px;
+    border-right: 0px;
     background: none;
     border-top-right-radius: 5px 5px;
     border-bottom-right-radius: 5px 5px;
   }
+
+.tfbuttonimage{
+
+
+}
+
+
   .tfbutton:hover {
     text-decoration: none;
-    font-weight:bold;
-    color: black;
-    background: white;
+    /*color: black;*/
+    /*background: white;*/
   }
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -53,8 +60,72 @@ a:hover {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
-  border: 1px solid #fff;
+  
 }
+
+
+
+
+/*new search bar start*/
+
+body{
+  padding-top: 75px;
+}
+
+.search-container{
+  width: 490px;
+  display: block;
+  margin: 0 auto;
+}
+
+input#search-bar{
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  border-radius: 25px;
+  outline: none;
+  &:focus{
+    border: 1px solid #008ABF;
+    transition: 0.35s ease;
+    color: #008ABF;
+    &::-webkit-input-placeholder{
+      transition: opacity 0.45s ease; 
+      opacity: 0;
+     }
+    &::-moz-placeholder {
+      transition: opacity 0.45s ease; 
+      opacity: 0;
+     }
+    &:-ms-placeholder {
+     transition: opacity 0.45s ease; 
+     opacity: 0;
+     }    
+   }
+ }
+
+.search-icon{
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -62px;
+  right: -45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*new search bar end*/
 
 
 /*
@@ -80,9 +151,8 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
+
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: center-top;
@@ -90,7 +160,7 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
-  text-align:center;
+  text-align: center;
 }
 .cover-heading {
   text-align:center;
@@ -103,9 +173,7 @@ body {
 }
 
 
-/*
- * Header
- */
+/* Header */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -127,37 +195,30 @@ body {
   padding-right: 0;
   padding-left: 0;
   font-size: 20px;
-  font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
+
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
   color:gray;
 }
- /*
-  * Center 
-  */
+ /* Center */
 .inner-cover  {
   padding:10px;
+
 }
 
 
-/*
- * Footer
- */
-
+/* Footer */
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
 
 
-/*
- * Affix and center
- */
+/* Affix and center */
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */

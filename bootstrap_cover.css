@@ -200,7 +200,7 @@ th {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -1103,7 +1103,6 @@ a {
 a:hover,
 a:focus {
   color: #23527c;
-  text-decoration: underline;
 }
 a:focus {
   outline: thin dotted;
@@ -1532,7 +1531,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 }
 code {
   padding: 2px 4px;
@@ -3424,7 +3423,6 @@ fieldset[disabled] .btn-link {
 .btn-link:hover,
 .btn-link:focus {
   color: #23527c;
-  text-decoration: underline;
   background-color: transparent;
 }
 .btn-link[disabled]:hover,
