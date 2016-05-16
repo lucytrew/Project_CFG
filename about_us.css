@@ -46,7 +46,7 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
@@ -68,11 +68,16 @@ body {
 .jumbotron {
   background-color: #5793A9;
   margin:20px; 
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   }
-p .lead {
-  margin-left:20px;
-  margin-right:20px;
+.lead {
+  margin-left:25px;
+  margin-right:25px;
+  max-width:854px;
+  display: inline-block;
+ }
+p.lead {
+  margin-bottom: 0px;
 }
 .jumbotron h1 {
   font-size:30px;
@@ -109,4 +114,16 @@ div.span4 img.center-block {
     font-weight:bold;
     border-radius: 10px;
     width:100px;
+}
+p {
+  font-size:16px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+blockquote {
+  border-left:transparent;
+}
+.mastfoot {
+  padding: 5px;
 }
