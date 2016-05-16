@@ -3,6 +3,9 @@
  */
 
 /* Links */
+a {
+  text-decoration:none;
+}
 a,
 a:focus,
 a:hover {
