@@ -1,4 +1,4 @@
-/*
+ /*
  * Globals
  */
 
@@ -183,6 +183,7 @@ body {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+      text-decoration: none;
 }
 
 .masthead-nav > li {
@@ -190,6 +191,7 @@ body {
 }
 .masthead-nav > li + li {
   margin-left: 20px;
+  text-decoration: none;
 }
 .masthead-nav > li > a {
   padding-right: 0;

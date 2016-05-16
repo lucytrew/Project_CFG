@@ -12,6 +12,11 @@ html {
 body {
   margin: 0;
 }
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
 article,
 aside,
 details,
@@ -1082,11 +1087,9 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+  color: #5793A9;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 input,
 button,
@@ -4963,11 +4966,12 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: inherit;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+  font-size:20px;
 }
 .jumbotron p {
   margin-bottom: 15px;
