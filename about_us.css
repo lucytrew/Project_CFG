@@ -58,6 +58,9 @@ body {
   background-color: transparent;
   color:gray;
 }
+img .home_logo {
+  float:left;
+}
 /* 
 * Head
 */
